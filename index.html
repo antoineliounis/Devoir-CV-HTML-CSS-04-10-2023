@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/format.css"/>
     <link rel="stylesheet" href="./assets/font.css"/>
     <link rel="stylesheet" href="./assets/pictures.css"/>
+    <link rel="stylesheet" href="./assets/blocks.css"/>
     <link rel="shortcut icon" type="image/png" href="./Images/favicon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +21,11 @@
 </head>
 <body id="all">
     <header>
-        <img src="./Images/IMG_20230327_133043.jpg" alt="Photo de profil" id="PDP"/>
-        <h1>John Doe</h1>
-        <h2>Développeur Web Junior</h2>
+        <section id="first">
+            <img src="./Images/IMG_20230327_133043.jpg" alt="Photo de profil" id="PDP"/>
+            <h1>John Doe</h1>
+            <h2>Développeur Web Junior</h2>
+        </section>
         <nav>
             <p><a href="https://www.google.com/maps/place/4+Pl.+des+Vosges,
                 +75004+Paris/@48.8548285,2.3610194,17z/data=!3m1!4b1!4m6!3m5!1s0x47e671ffec265aaf:
@@ -32,88 +35,92 @@
             <p><a href="tel:0600000000">0600000000</a></p>
         </nav>
     </header>
-    <section>
-        <h3>Expériences Professionnelles</h3>
-        <article>
-            <h4>Acoustitien chez ConstruireÉcouter</h4>
-            <p>De Juillet 2021 à Septembre 2021 </p>
+    <section id="corps">
+        <section id="exp">
+            <h3>Expériences Professionnelles</h3>
+            <article>
+                <h4>Acoustitien chez ConstruireÉcouter</h4>
+                <p>De Juillet 2021 à Septembre 2021 </p>
+                <ul>
+                    <li>Mission 1: Étudier les sources de nuisances sonores</li>
+                    <li>Mission 2: Mettre en place des techniques d'atténuation</li>
+                    <li>Mission 3: Analyser les données économiques du projet</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Accompagnant éducatif et social chez Nous Tous</h4>
+                <p>De Mai 2022 à Août 2022</p>
+                <ul>
+                    <li>Mission 1: Accompagner les personnes agées, handicapées ou fragiles dans les actes de la vie quotidienne </li>
+                    <li>Mission 2: Intervenir à domicile et assurer les tâches ménagères des patients</li>
+                    <li>Mission 3: Intervenir dans des structures médico-sociales et assister les personnes dépendantes</li>
+                    <li>Mission 4: Accompagner des enfants, adolescents et jeunes adultes dans leur scolarité et leurs activités de loisir</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Acheteur d'espaces publicitaires chez Publicitaires Associés</h4>
+                <p>De Septembre 2022 à Juillet 2023</p>
+                <ul>
+                    <li>Mission 1: Choisir les supports les mieux adaptés à la marque cliente</li>
+                    <li>Mission 2: Négocier les espaces choisis avec les interlocuteurs des centrales d'achat</li>
+                </ul>
+            </article>
+        </section>
+        <section id="form">
+            <h3>Diplômes/Formations</h3>
+            <article>
+                <h4>Formation au Web Design et Web Mobile</h4>
+                <p>Depuis Septembre 2023</p>
+                <p>Centre Européen de Formation</p>            
+            </article>
+            <article>
+                <h4>Baccalauréat Général Mention Très Bien Obtenu en 2021</h4>
+                <p>De 2015 à 2021</p>
+                <p>Lycée Victor Hugo</p>
+            </article>
+        </section>
+        <section id="comp">
+            <h3>Compétences</h3>
             <ul>
-                <li>Mission 1: Étudier les sources de nuisances sonores</li>
-                <li>Mission 2: Mettre en place des techniques d'atténuation</li>
-                <li>Mission 3: Analyser les données économiques du projet</li>
+                <li>HTML5 : Expert</li>
+                <li>CSS3 : Intermédiaire</li>
+                <li>GitHub : Débutant</li>
             </ul>
-        </article>
-        <article>
-            <h4>Accompagnant éducatif et social chez Nous Tous</h4>
-            <p>De Mai 2022 à Août 2022</p>
-            <ul>
-                <li>Mission 1: Accompagner les personnes agées, handicapées ou fragiles dans les actes de la vie quotidienne </li>
-                <li>Mission 2: Intervenir à domicile et assurer les tâches ménagères des patients</li>
-                <li>Mission 3: Intervenir dans des structures médico-sociales et assister les personnes dépendantes</li>
-                <li>Mission 4: Accompagner des enfants, adolescents et jeunes adultes dans leur scolarité et leurs activités de loisir</li>
-            </ul>
-        </article>
-        <article>
-            <h4>Acheteur d'espaces publicitaires chez Publicitaires Associés</h4>
-            <p>De Septembre 2022 à Juillet 2023</p>
-            <ul>
-                <li>Mission 1: Choisir les supports les mieux adaptés à la marque cliente</li>
-                <li>Mission 2: Négocier les espaces choisis avec les interlocuteurs des centrales d'achat</li>
-            </ul>
-        </article>
+        </section>
     </section>
-    <section>
-        <h3>Diplômes/Formations</h3>
-        <article>
-            <h4>Formation au Web Design et Web Mobile</h4>
-            <p>Depuis Septembre 2023</p>
-            <p>Centre Européen de Formation</p>            
-        </article>
-        <article>
-            <h4>Baccalauréat Général Mention Très Bien Obtenu en 2021</h4>
-            <p>De 2015 à 2021</p>
-            <p>Lycée Victor Hugo</p>
-        </article>
-    </section>
-    <section>
-        <h3>Compétences</h3>
-        <ul>
-            <li>HTML5 : Expert</li>
-            <li>CSS3 : Intermédiaire</li>
-            <li>GitHub : Débutant</li>
-        </ul>
-    </section>
-    <section>
-        <aside>
-            <h3>À propos</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum.</p>
-        </aside>
-    </section>
-    <section>
-        <aside>
-            <h3>Langues Parlées</h3>
-            <ul>
-                <li>Français : Langue Maternelle</li>
-                <li>Anglais : Expérimenté</li>
-                <li>Allemand : Débutant</li>
-                <li>Mandarin : Débutant</li>
-            </ul>
-        </aside>
-        <aside>
-            <h3>Centres d'intérêt</h3>
-            <ul>
-                <li>Chant</li>
-                <li>Fitness</li>
-                <li>Randonnée</li>
-                <li>Voyages</li>
-            </ul>
-        </aside>
+    <section id="plus">
+        <section>
+            <aside id="propos">
+                <h3>À propos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </aside>
+        </section>
+        <section>
+            <aside id="langues">
+                <h3>Langues Parlées</h3>
+                <ul>
+                    <li>Français : Langue Maternelle</li>
+                    <li>Anglais : Expérimenté</li>
+                    <li>Allemand : Débutant</li>
+                    <li>Mandarin : Débutant</li>
+                </ul>
+            </aside>
+            <aside id="Interests">
+                <h3>Centres d'intérêt</h3>
+                <ul>
+                    <li>Chant</li>
+                    <li>Fitness</li>
+                    <li>Randonnée</li>
+                    <li>Voyages</li>
+                </ul>
+            </aside>
+        </section>
     </section>
     <footer>
         <img src="./Images/LinkedIn_icon.png" alt="LinkedIn" id="linkedin"/>
