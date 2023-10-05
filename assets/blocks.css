@@ -1,13 +1,13 @@
 #first{
     width: 1160px;
     height: 378px;
-    border: 3px solid red;
+    border: 3px solid #782221;
 }
 
 nav{
     width: 1160px;
     height: 126px;
-    border: 3px solid black;
+    border: 3px solid #2c1d27;
 }
 
 body{
@@ -18,10 +18,11 @@ body{
 
 #corps{
     order: 2;
-    width: 810px;
+    width: 815px;
     height: 1034px;
     display: flex;
     flex-direction: column;
+    border-bottom: 5px solid #dbc2a4;
 }
 
 #plus{
@@ -30,11 +31,13 @@ body{
     height: 1034px;
     display: flex;
     flex-direction: column;
-        border: 3px solid red;
+    border: 3px solid #782221;
 }
 
 footer{
     order: 3;
+    width: 1160px;
+    height: 126px;
 }
 
 #exp{
