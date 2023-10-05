@@ -1,0 +1,51 @@
+#acoustitien:hover{
+    border-right: 7px solid #782221; 
+}
+
+#accomp:hover{
+    border-right: 7px solid #782221; 
+}
+
+#acheteur:hover{
+    border-right: 7px solid #782221; 
+}
+
+#web:hover{
+    border-right: 7px solid #782221;
+}
+
+#bac:hover{
+    border-right: 7px solid #782221;
+}
+
+#prog:hover{
+    border-right: 7px solid #782221;
+}
+
+#PDP:hover{
+    cursor: zoom-in;
+}
+
+#linkedin:hover{
+    opacity: calc(70%);
+}
+
+#twitter:hover{
+    opacity: calc(70%);
+}
+
+#github:hover{
+    opacity: calc(70%);
+}
+
+#address:hover{
+    text-decoration: underline;
+}
+
+#mail:hover{
+    text-decoration: underline;
+}
+
+#tel:hover{
+    text-decoration: underline;
+}
