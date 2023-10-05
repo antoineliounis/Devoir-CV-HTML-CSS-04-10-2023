@@ -18,17 +18,17 @@ body{
 
 #corps{
     order: 2;
-    width: 815px;
-    height: 1034px;
+    width: 810px;
+    height: max-content;
     display: flex;
     flex-direction: column;
-    border-bottom: 5px solid #dbc2a4;
+    border-right: 3px solid black;
 }
 
 #plus{
     order: 1;
     width: 340px;
-    height: 1034px;
+    height: 1040px;
     display: flex;
     flex-direction: column;
     border: 3px solid #782221;
@@ -36,6 +36,12 @@ body{
 
 footer{
     order: 3;
+    width: 1160px;
+    height: 126px;
+    border: 3px solid #782221;
+}
+
+nav{
     width: 1160px;
     height: 126px;
 }

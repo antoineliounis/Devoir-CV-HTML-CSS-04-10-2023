@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/pictures.css"/>
     <link rel="stylesheet" href="./assets/blocks.css"/>
     <link rel="stylesheet" href="./assets/colorbg.css"/>
+    <link rel="stylesheet" href="./assets/stylefont.css"/>
     <link rel="shortcut icon" type="image/png" href="./Images/favicon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,12 +29,12 @@
             <h2>Développeur Web Junior</h2>
         </section>
         <nav>
-            <p><a href="https://www.google.com/maps/place/4+Pl.+des+Vosges,
+            <p id="address"><a href="https://www.google.com/maps/place/4+Pl.+des+Vosges,
                 +75004+Paris/@48.8548285,2.3610194,17z/data=!3m1!4b1!4m6!3m5!1s0x47e671ffec265aaf:
                 0xedbf305d7c99dd6c!8m2!3d48.8548251!4d2.
-                3658849!16s%2Fg%2F11ckqm33_t?entry=ttu" target="_blank">4 Place des Vosges, 75004 Paris</a></p>
-            <p><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></p>
-            <p><a href="tel:0600000000">0600000000</a></p>
+                3658849!16s%2Fg%2F11ckqm33_t?entry=ttu" target="_blank">4 Place des Vosges, <br/> 75004 Paris</a></p>
+            <p id="mail"><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></p>
+            <p id="tel"><a href="tel:0600000000">0600000000</a></p>
         </nav>
     </header>
     <section id="corps">
@@ -112,6 +113,7 @@
                     <li>Mandarin : Débutant</li>
                 </ul>
             </aside>
+            <br/>
             <aside id="Interests">
                 <h3>Centres d'intérêt</h3>
                 <ul>
@@ -124,11 +126,14 @@
         </section>
     </section>
     <footer>
-        <img src="./Images/LinkedIn_icon.png" alt="LinkedIn" id="linkedin"/>
-        <img src="./Images/Logo_of_Twitter.png" alt="Twitter" id="twitter"/>
-        <img src="./Images/Githublogo.png" alt="GitHub" id="github"/>
-        <br/>
-        <small>Dernière mise à jour le <time datetime="2023-10-05T15:05+03:00">Jeudi 5 Octobre 2023 à 15:05</time></small>
+        <section id="images">
+            <img src="./Images/LinkedIn_icon.png" alt="LinkedIn" id="linkedin"/>
+            <img src="./Images/Logo_of_Twitter.png" alt="Twitter" id="twitter"/>
+            <img src="./Images/Githublogo.png" alt="GitHub" id="github"/>
+        </section>
+        <section id="mise">
+            <small>Dernière mise à jour le <time datetime="2023-10-05T15:05+03:00">Jeudi 5 Octobre 2023 à 15:05</time></small>
+        </section>
     </footer>
 </body>
 </html>
