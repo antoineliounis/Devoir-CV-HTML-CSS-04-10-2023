@@ -1,6 +1,7 @@
 #PDP{
     width: 150px;
     height: 150px;
+    box-shadow: 0 0 20px black;
     object-fit: cover;
     border-radius: 50%;
 }
