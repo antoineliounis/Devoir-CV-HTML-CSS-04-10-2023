@@ -1,6 +1,7 @@
-#all{
+body{
     width: 1160px;
+    height: 1640px;
     margin-right: auto;
     margin-left: auto;
-    border-right: 4px solid black;
+    /*border-right: 4px solid black;*/
 }

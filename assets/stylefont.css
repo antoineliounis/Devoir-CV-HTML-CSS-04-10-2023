@@ -1,0 +1,152 @@
+#first{
+    color: white;
+    text-align: center;
+    line-height: 0.5;
+}
+
+header section img{
+    margin-top: 30px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 4em;
+}
+
+h2{
+   font-weight: normal; 
+   font-size: 2em;
+}
+
+/*Lignes de code spécifiques à nav*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+}
+
+nav p a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+/*Lignes de code relatives à aside*/
+
+#plus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#propos{
+    width: 300px;
+}
+
+#propos h3{
+    background-color: #dbc2a4;
+}
+
+#propos p{
+    width: 300px;
+    color: white;
+    text-indent: 2em;
+    text-align: right;
+}
+
+#langues{
+    width: 300px;
+}
+
+#langues h3{
+    background-color: #dbc2a4;
+}
+
+#langues ul{
+    color: white;
+}
+
+#Interests{
+    width: 300px;
+}
+
+#Interests h3{
+    background-color: #dbc2a4;
+}
+
+#Interests ul{
+    color: white;
+}
+
+/*Lignes de code spécifiques au corps*/
+
+#corps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#exp{
+    width: 700px;
+}
+
+#exp h3{
+    background-color: #dbc2a4;
+    border-left: 7px solid #782221;
+}
+
+#form{
+    width: 700px;
+}
+
+#form h3{
+    background-color: #dbc2a4;
+    border-left: 7px solid #782221;
+}
+
+#comp{
+    width: 700px;
+}
+
+#comp h3{
+    background-color: #dbc2a4;
+    border-left: 7px solid #782221;
+}
+
+/*Lignes de code spécifiques au footer*/
+
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#linkedin{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+#twitter{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#github{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#mise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer section small{
+    color: white;
+    margin-top: 30px;
+}
