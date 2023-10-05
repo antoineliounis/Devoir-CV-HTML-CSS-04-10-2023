@@ -1,0 +1,44 @@
+#first{
+    width: 1160px;
+    height: 378px;
+    border: 3px solid red;
+}
+
+nav{
+    width: 1160px;
+    height: 126px;
+    border: 3px solid black;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#corps{
+    order: 2;
+    width: 810px;
+    height: 1034px;
+    display: flex;
+    flex-direction: column;
+}
+
+#plus{
+    order: 1;
+    width: 340px;
+    height: 1034px;
+    display: flex;
+    flex-direction: column;
+        border: 3px solid red;
+}
+
+footer{
+    order: 3;
+}
+
+#exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
